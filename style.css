@@ -1,0 +1,170 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: kuch;
+    src: url('./Fonts/DM_Sans/static/DMSans-ExtraLight.ttf');
+}
+@font-face {
+    font-family: neuton;
+    src: url('./Fonts/Neuton/Neuton-Regular.ttf');
+}
+@font-face {
+    font-family: neutonextralight;
+    src: url('./Fonts/Neuton/Neuton-ExtraLight.ttf');
+}
+@font-face {
+    font-family: neutonsemibold;
+    src: url('./Fonts/Neuton/Neuton-Bold.ttf');
+}
+#main{
+    background-color: #F5F3EA;
+   overflow-x:hidden;
+
+}
+#page1{
+    min-height: 100vh;
+    width: 100vw;
+    border-bottom:1px solid black;
+    position: relative;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    justify-content: center;
+    gap:15vw;
+    height: 100px;
+    width: 100%;
+}
+#nav h1 span{
+    color:#FF5858;
+    display: flex;
+    align-items: center;
+    margin-right:-50;
+    font-family: neuton;
+    font-size:38px;
+}
+#nav h1{
+    display: flex;
+    align-items: center;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2vw;
+    font-size:15px;
+    letter-spacing: 1px;
+    font-family:kuch;
+    font-weight: 100;
+    /* font-weight:100; */
+}
+#nav-part3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1vw;
+    font-family: neutonextralight;
+    font-family: kuch;
+    font-size:15px;
+    font-weight: 100;
+}
+#nav-part3 :nth-child(3){
+    color:white;
+    background-color: black;
+    padding:10px 20px;
+    border:1px solid black; 
+    border-radius: 5px;
+    font-size:15px;
+    transition: all ease 0.4s;
+}
+#nav-part3 :nth-child(2){
+    color:#FF5858;
+    transition: all ease 0.5s;
+}
+#nav-part3 :nth-child(2):hover{
+    color:black;
+
+}
+#nav-part3 :nth-child(1):hover{
+    color:#FF5858;
+}
+
+#nav-part3 :nth-child(3):hover{
+    color:black;
+background-color:transparent;
+border:1px solid black;   
+}
+#page1 #center{
+    text-align:center;
+    padding-top:7vh;
+}
+#center h1{
+    font-family: neutonsemibold;
+    font-weight: 900;
+    font-size:64px;
+}
+#center h1:nth-child(1){
+    color:#FF5858;
+}
+#center p{
+    font-family:kuch;
+    font-size:15px;
+    margin-top:3vh;
+    font-weight: 500;
+}
+#page1 img{
+    width: 80%;
+    margin-left:10%;
+    margin-top:10vh;
+}
+
+/* Flying components to Page 1 */
+#blue-circle{
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top:4%;
+    left:34%;
+}
+
+#yellow-star{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top:10%;
+    left:70%;
+}
+#pink-star{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top:21%;
+    left:16%
+}
+#arrow{
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    top:24%;
+    left:22%;
+}
+#pink-plus{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top:40%;
+    left:79%;
+}
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+}

@@ -1,0 +1,13 @@
+gsap.from(".small_images_group1",{
+    y:-20,
+    duration:5,
+    repeat:-1,
+    yoyo:true,
+})
+gsap.from(".small_images_group2",{
+    delay:2,
+    y:+20,
+    duration:5,
+    repeat:-1,
+    yoyo:true,
+})
