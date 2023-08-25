@@ -92,3 +92,64 @@ tl.from("#page2 #elem-holder",{
     duration:0.5,
     stagger:0.4,
  })
+
+ var tl2 = gsap.timeline({
+    scrollTrigger:{
+        trigger:"#page3 h2",
+        scroller:"body",
+        scrub:2,
+        markers:false,
+        end:"top 82%",
+    }
+
+ })
+
+ tl2.from("#page3 h2",{
+    y:50,
+    opacity:0,
+    duration:0.3,
+    // scrollTrigger:{
+    //     trigger:"#page3 h2",
+    //     scroller:"body",
+    //     scrub:2,
+    //     markers:true,
+    //     end:"top 82%",
+    // }
+ })
+ tl2.from("#page3 .page3-holders",{
+    y:100,
+    opacity:0,
+    duration:0.3,
+    stagger:0.3,
+ })
+
+ tl.from("#page4 h2 , #page4 p",{
+    y:100,
+    opacity:0,
+    duration:0.3,
+    scrollTrigger:{
+        trigger:"#page4 h2 , #page4 p",
+        scroller:"body",
+        scrub:true,
+        markers:false,
+        end:"top 60%",
+        start:"top 120%",
+    }
+
+ })
+ tl.from("#page4 #page4-holder",{
+    y:100,
+    opacity:0,
+    duration:0.3,
+    scale:0.5,
+    scrollTrigger:{
+        trigger:"#page4 h2 , #page4 p",
+        scroller:"body",
+        scrub:3,
+        markers:false,
+        end:"top 30%",
+        start:"top 100%",
+      
+    }
+
+ })
