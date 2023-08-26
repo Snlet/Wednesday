@@ -426,7 +426,7 @@ border:1px solid black;
         margin-top:10vh;
     }
     #page5 #banner-holder{
-        height: 80vh;
+        height: 70vh;
         width: 98%;
         /* background-color: red; */
         background-color: white;
@@ -472,7 +472,7 @@ border:1px solid black;
         position: absolute;
         background-color: #BDF0DF;
         height: 35vh;
-        width: 94vw;
+        width: 74vw;
         bottom:-15%;
         left:50%;
         transform: translate(-50%,0%);
@@ -481,7 +481,7 @@ border:1px solid black;
         text-align: center;
     }
     #banner2 h2{
-        font-size:4.5vw;
+        font-size:4vw;
         letter-spacing: 2px;
         margin-top:6vh;
     }#banner2 #inputs{
@@ -539,7 +539,7 @@ border:1px solid black;
         margin-left:-15vw;
     }
     #line2{
-        font-size:1.4vw;
+        font-size:1.2vw;
         color: rgb(66, 65, 65);
         text-align: center;
         margin-top:10vh;

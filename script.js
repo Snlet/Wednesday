@@ -151,5 +151,32 @@ tl.from("#page2 #elem-holder",{
         start:"top 100%",
       
     }
-
  })
+
+ tl.from("#banner1",{
+    y:100,
+    duration:0.5,
+    scale:1.5,
+    scrollTrigger:{
+        trigger:"#banner1",
+        scroller:"body",
+        scrub:2,
+        markers:false,
+        end:"top 85%",
+        start:"top 100%"
+    }
+ })
+ tl.from("#banner2",{
+    y:50,
+    duration:0.5,
+    
+    scrollTrigger:{
+        trigger:"#banner2",
+        scroller:"body",
+        scrub:2,
+        markers:true,
+        end:"top 85%",
+        start:"top 100%"
+    }
+ })
+
