@@ -174,7 +174,7 @@ tl.from("#page2 #elem-holder",{
         trigger:"#banner2",
         scroller:"body",
         scrub:2,
-        markers:true,
+        markers:false,
         end:"top 85%",
         start:"top 100%"
     }
